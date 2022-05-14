@@ -2,7 +2,7 @@
     import Footer from "../Footer/Footer-component";
     import Header from "../Header/Header-component";
 import Tours from "../Tours/Tours-component";
-
+const tours=require("../../data/data.json")
 
 
 
@@ -14,11 +14,11 @@ function home(props) {
     
    {
     
-      props.tours.map(name=>{
+      tours.map(item=>{
        return(
          <Tours
-          img={name.image} 
-           title={name.name}/>
+          img={item.image} 
+           title={item.name}/>
 
        )
      })
