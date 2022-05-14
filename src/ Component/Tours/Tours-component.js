@@ -1,4 +1,8 @@
+
 function Tours(props) {
+
+
+
     return (
       <>
        <p>{props.title}</p>
@@ -8,4 +12,6 @@ function Tours(props) {
     );
   }
   
+
   export default Tours;
+
