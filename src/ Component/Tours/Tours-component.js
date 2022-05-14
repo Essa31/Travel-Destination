@@ -1,4 +1,8 @@
-function Touerco(props) {
+
+function Tours(props) {
+
+
+
     return (
       <>
        <p>{props.title}</p>
@@ -8,4 +12,6 @@ function Touerco(props) {
     );
   }
   
-  export default Touerco;
+
+  export default Tours;
+

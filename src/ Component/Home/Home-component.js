@@ -1,7 +1,7 @@
 
     import Footer from "../Footer/Footer-component";
     import Header from "../Header/Header-component";
-import Touerco from "../Touerco/Tours-component";
+import Tours from "../Tours/Tours-component";
 
 
 
@@ -16,7 +16,7 @@ function home(props) {
     
       props.tours.map(name=>{
        return(
-         <Touerco
+         <Tours
           img={name.image} 
            title={name.name}/>
 
