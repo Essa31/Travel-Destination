@@ -1,12 +1,13 @@
-
+import "./Tours.css"
 function Tours(props) {
 
 
 
     return (
       <>
-       <p>{props.title}</p>
-       <img src={props.img} />
+      
+       <p id="title">{props.title}</p>
+       <img  src={props.img} />
 
       </>
     );
