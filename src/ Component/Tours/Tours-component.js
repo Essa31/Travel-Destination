@@ -1,13 +1,30 @@
 import "./Tours.css"
+import Tour from "./tour/Tour";
+import { Link } from "react-router-dom";
+const toursData=require("../../data/data.json")
+
 function Tours(props) {
 
 
 
     return (
       <>
+     
+       {
+    
+    toursData.map(item=>{
       
-       <p id="title">{props.title}</p>
-       <img  src={props.img} />
+     return(
+      <Link to={`/city/${item.id }`}>
+
+       <Tour
+     
+        img={item.image} 
+         title={item.name}/>
+     </Link>
+     )
+   })
+ }
 
       </>
     );

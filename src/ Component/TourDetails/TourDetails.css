@@ -1,0 +1,14 @@
+.information{
+    
+    width: 25%;
+    height: 25px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.information:hover{
+    width: 100;
+    overflow:visible;
+    
+
+}
